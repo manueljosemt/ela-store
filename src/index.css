@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+
+.ant-card-cover > * {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.ant-card-meta-title {
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 16px;
+  white-space: unset;
+  text-overflow: ellipsis;
+}
+
+.ant-card-meta-description {
+  color: #884af7;
+  font-weight: bold;
+  font-size: 21px;
+}
